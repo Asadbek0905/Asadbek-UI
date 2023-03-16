@@ -164,3 +164,60 @@ line-height: 21px;
 text-align: center;
 color: #21243D;
 }
+
+
+
+
+
+
+
+
+
+@media (max-width: 575px) {
+    .hi{
+        font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #21243D;
+    line-height: 40px;
+    padding-top: 30px;
+    }   
+    .amet{
+        font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #21243D;
+    }
+    .button-box{
+        display: flex;
+        justify-content: center;
+    }
+    .text-div{
+        display: flex;
+        justify-content: center;
+    }
+    .user {
+        height: 243px;
+        width: 243px;
+        border-radius: 50%;
+        margin-top: 70px;
+    }
+    .imgsection{
+    width: 100%;
+    border-radius: 6px;
+    }
+    .design{
+        font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+margin-top: 17px;
+color: #21243D;
+    }
+}
