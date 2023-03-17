@@ -284,4 +284,8 @@ color: #21243D;
         justify-content: center;
         margin-left: -50px;
     }
+    .listt {
+        display: flex;
+        margin-top: 41px;
+    }
 }
