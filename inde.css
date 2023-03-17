@@ -275,4 +275,8 @@ color: #21243D;
         color: #000000;
         margin-left: 20px;
     }
+    .headerimg{
+        display: flex;
+        justify-content: center;
+    }
 }
