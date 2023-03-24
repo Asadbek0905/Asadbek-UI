@@ -62,8 +62,11 @@
                 <div class="col-10 col-sm-8">
                     <h1 class="he">Heading 1</h1>
                     <h3 class="hea">Heading 2</h3>
-                    <p class="amet">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                    <p class="amet d-none d-sm-block">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
                         officia <br> consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                    <p class="amet d-block d-sm-none">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                        officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                     </p>
                 </div>
             </div>
@@ -79,7 +82,7 @@
                 <div class="col-12 col-sm-12">
                     <img src="./img/Rectangle 5 (1).png" alt="" class="back">
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-sm-12">
                     <img src="./img/Rectangle 6 (1).png" alt="" class="back">
                 </div>
             </div>
@@ -97,9 +100,11 @@
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                    <textarea class="form-control d-none d-sm-block" id="exampleFormControlTextarea1" rows="10"></textarea>
+                    <textarea class="form-control d-block d-sm-none" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <button style="margin-top: 40px;" class="btn btn-primary postData">Submit</button>
+                <button style="margin-top: 40px;" class="btn btn-primary postData d-none d-sm-block">Submit</button>
+                <button class="btn btn-primary postData d-block d-sm-none">Submit</button>
             </div>
         </div>
         <div class="row justify-content-center mt-5">

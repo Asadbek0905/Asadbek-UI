@@ -142,4 +142,20 @@ color: #000000;
     .back1{
         width: 100%;
     }
+    .back{
+        width: 100%;
+    }
+    .he {
+        font-weight: 500;
+        margin-top: 21px;
+        font-size: 27px;
+        line-height: 60px;
+        color: #21243D;
+    }
+    .hea {
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 60px;
+        color: #21243D;
+    }
 }
