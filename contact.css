@@ -96,3 +96,50 @@ textarea{
     width: 100%;
     outline: none;
 }
+.m{
+    border-bottom: 2px solid black;
+}
+
+
+
+
+
+
+
+@media (max-width : 575px){
+    .list{
+        display: flex;
+        justify-content: center;
+    }
+    .des{
+font-weight: 700;
+font-size: 30px;
+line-height: 40px;
+padding-top: 47px;
+color: #21243D;
+    }
+    .y20{
+font-weight: 900;
+font-size: 18px;
+line-height: 60px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+padding-left: 10px;
+    }
+    .dash {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 26px;
+        color: #21243D;
+    }
+    .amet{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+    }
+    .back1{
+        width: 100%;
+    }
+}
