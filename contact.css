@@ -158,4 +158,8 @@ color: #000000;
         line-height: 60px;
         color: #21243D;
     }
+    .listt {
+        display: flex;
+        margin-top: 10px;
+    }
 }
