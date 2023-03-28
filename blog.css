@@ -73,3 +73,42 @@ color: #21243D;
 .m{
     border-bottom: 2px solid black;
 }
+
+
+
+
+
+
+
+
+@media (max-width : 575px){
+    .list{
+        margin-left: -50px;
+    }
+    .blog {
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 60px;
+        color: #21243D;
+        padding-top: 22px;
+    }
+    .UI {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 44px;
+        color: #21243D;
+        margin-top: 16px;
+    }
+    .feb {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        padding-top: 5px;
+        color: #21243D;
+    }
+    .listt {
+        display: flex;
+        margin-top: 21px;
+    }
+    
+}
