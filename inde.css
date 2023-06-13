@@ -19,6 +19,10 @@ text-align: right;
 color: #000000;
 cursor: pointer;
 }
+.list_item a {
+    text-decoration: none;
+    color: #000000;
+}
 a{
     color: #000000;
 }
@@ -168,7 +172,12 @@ line-height: 21px;
 text-align: center;
 color: #21243D;
 }
-
+.divdark{
+    position: relative;
+}
+.dark{
+    position: fixed;
+}
 
 
 
